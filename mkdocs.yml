@@ -1,3 +1,25 @@
-site_name: 小鱼小瑜's note
-theme: 
-name: materia
+site_name: xiaoyu's note
+
+theme:
+  name: material
+  icon:
+    logo: fontawesome/solid/fish
+  language: zh
+  features:
+    - navigation.tabs #顶部分类标签
+    - navigation.top  #返回顶部按钮
+    - search.highlight #搜索结果高亮
+  palette:                    
+     - media: "(prefers-color-scheme: light)"  #明
+       scheme: default                         
+       toggle:
+         icon: material/brightness-7
+         name: Switch to dark mode             #改提示词处（光标放在按钮上显示的提示
+     - media: "(prefers-color-scheme: dark)"  
+       scheme: slate
+       primary: grey                          
+       toggle:
+        icon: material/brightness-4
+       name: Switch to light mode      
+ 
+
